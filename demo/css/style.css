@@ -432,8 +432,8 @@ span.actual{
 	background:#fff;
 	border: 1px solid #ddd;
 	position: relative;
-	float:right;
-	margin-right: 2%;
+	/*float:right;*/
+	margin: 50px auto;
 }
 .search input[type="text"] {
 	border: none;
@@ -441,7 +441,7 @@ span.actual{
 	background: none;
 	font-size:0.85em;
     color:#999;
-	width:130px;
+	width:90%;
 	padding:7px;
 	-webkit-apperance:none;
 	margin:0;
@@ -451,13 +451,14 @@ span.actual{
 	-o-transition: all 0.5s ease-out;
 }
 .search input[type="text"]:focus{
-	width:150px;
+	/*width:150px;*/
 }
 .search input[type="submit"] {
 	  border: none;
 	  text-indent: -9999px;
 	  outline: none;
 	  cursor: pointer;
+	  float:right;
 	  background: url("../images/search1.png") no-repeat 2px 6px;
 	  width: 30px;
 	  height: 37px;
@@ -480,17 +481,17 @@ span.actual{
 	position: relative;
 }
 .banner_desc h1{
-	color: #fff;
 	font-size: 3.5em;
 	font-weight: 900;
 	text-transform: uppercase;
+	text-align: center;
 }
 .banner_desc h2{
-	color:#fff;
 	text-transform:uppercase;
 	font-size:2em;
 	font-weight:500;
 	letter-spacing:5px;
+	text-align: center;
 }
 .button {
 	display: block;
